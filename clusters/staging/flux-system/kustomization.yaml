@@ -21,7 +21,7 @@ patches:
   - patch: |
       - op: add
         path: /spec/template/spec/containers/0/args/0
-        value: --default-service-account=gitops-reconciler
+        value: --default-service-account=gitops-reconciler # The Tenant GitOps Reconciler
     target:
       kind: Deployment
       name: "(kustomize-controller|helm-controller)"
