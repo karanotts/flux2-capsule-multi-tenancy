@@ -12,10 +12,8 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: clastix
+      version: 0.4.6
   values:
-    image:
-      repository: quay.io/clastix/capsule-proxy
-      tag: v0.3.0
     options:
       logLevel: "10"
   interval: 1m
